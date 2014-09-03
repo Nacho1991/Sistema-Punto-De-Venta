@@ -1,0 +1,154 @@
+CREATE database Multicomercial;
+use Multicomercial;
+drop database Multicomercial;
+
+Create table login
+(
+	id_CodRegistro integer primary key,
+  id_NumeroRegistro integer not null,
+	nombreUsuario varchar (40),
+	contrasenna varchar (40),
+  nombreEmpleado varchar (50),
+  tipoAcceso varchar (50),
+  CONSTRAINT fk_id_NumeroRegistro FOREIGN KEY(id_NumeroRegistro) REFERENCES EMPLEADOS(id_NumeroRegistro)
+);
+insert into login (id_CodRegistro,id_NumeroRegistro,nombreUsuario,contrasenna,nombreEmpleado,tipoAcceso)
+values('101','401','Nacho','1','Ignacio Valerio Vega','Administrador');
+select * from login;
+drop table login;
+
+
+CREATE TABLE EMPLEADOS
+(
+	id_NumeroRegistro integer primary key,
+	id_Departamento integer NOT NULL,
+	nombre VARCHAR (50) not null,
+	apellidos VARCHAR(50) not null,
+	cedula VARCHAR (50) not null,
+	fechaNacimiento DATE not null,
+	edad VARCHAR (50) not null,
+	sexo VARCHAR(50) not null,
+	telefono VARCHAR(50),
+	celular VARCHAR(50),
+	correoElectronico varchar (50),
+	creadoPor VARCHAR(50) not null,
+	fechaCreacion DATE not null,
+	fechaModificacion DATE,
+	modificadoPor VARCHAR(50),
+	CONSTRAINT fk_id_Departamento FOREIGN KEY(id_Departamento) REFERENCES Departamento(id_Departamento)
+);
+drop table EMPLEADOS;
+
+Insert into empleados(id_NumeroRegistro,id_Departamento,nombre,apellidos,cedula,fechaNacimiento,
+edad,sexo,telefono,celular,correoElectronico,creadoPor,fechaCreacion,fechaModificacion,modificadoPor)
+Values('403','003','José','Valerio Lara','2405020','3/04/2013','49','Masculino','','87120056',
+'jvalerio@hotmail.com','Uriel Valerio Vega','12/03/2012','24/05/2013','');
+Select * from empleados;
+select max(id_NumeroRegistro) from empleados;--Busca el valor maximo de una columna
+select min (id_NumeroRegistro) from empleados; --Busca el valor minimo de una columna
+select sum (id_NumeroRegistro) from empleados; --Suma el contenido de alguna columna en especifico
+Select * from EMPLEADOS where sexo = 'Masculino' and nombre = 'José'; --Busca los datos que contengan los nombres citados
+select * from EMPLEADOS order by nombre; --Ordena los datos de una columna
+select * from EMPLEADOS order by nombre asc; --Ordena los datos de forma ascendente
+select * from EMPLEADOS order by nombre desc; --Ordena los datos de forma descendente
+select Count (id_NumeroRegistro) from EMPLEADOS; --Suma la cantidad de filas que existe en la base de datos
+select avg (id_NumeroRegistro) from empleados; --Suma los valores de la columna y retorna su promedio
+
+CREATE TABLE Planilla
+(
+	id_NumeroPlanilla integer primary key,
+	id_NumeroRegistro integer not null,
+	salarioMensual integer not null,
+	CONSTRAINT fk_id_NumeroRegistro FOREIGN KEY(id_NumeroRegistro) REFERENCES EMPLEADOS(id_NumeroRegistro)
+);
+insert into Planilla (id_NumeroPlanilla,id_NumeroRegistro,salarioMensual)
+value('324','443','2500000');
+drop table Planilla;
+select * from Planilla;
+
+CREATE TABLE Departamento(
+	id_Departamento INTEGER primary key,
+	nombreDepartamento VARCHAR(50) not null,
+	creadoPor VARCHAR(50) not null,
+	fechaCreacion DATE not null,
+	modificadoPor VARCHAR(50) not null,
+	fechaModificado DATE
+);
+DROP TABLE Departamento;
+SELECT * FROM Departamento;
+INSERT INTO Departamento(id_Departamento,nombreDepartamento,creadoPor,fechaCreacion,modificadoPor,fechaModificado)
+VALUES('003','Bodega','José Valerio Lara','24/10/2011','José Valerio Lara','24/03/2012');
+
+create table cliente
+(
+	id_CodigoCliente integer,
+	
+	cedulaCliente varchar (50),
+	estadoCliente varchar (50),
+	nombreCliente varchar (50),
+	primerApellidoCliente varchar (50),
+	segundoApellidoCliente varchar(50),
+	direccionCliente varchar(50),
+	telefonoCliente varchar (50),
+	limiteCreditoCliente INTEGER,
+	cantidadCreditoActualCliente FLOAT,
+	fechaCreacion date,
+	fechaModificacion date,
+	modificadoPor varchar(50),
+	creadoPor varchar (50),
+	constraint pk_id_CodigoCliente primary KEY(id_CodigoCliente)
+);
+Insert into clientesCreditoAsociados(id_CodigoCliente,cedulaCliente,estadoCliente,nombreCliente,primerApellidoCliente,segundoApellidoCliente,direccionCliente,telefonoCliente,limiteCreditoCliente,cantidadCreditoActualCliente,fechaCreacion,fechaModificacion,modificadoPor,creadoPor)
+Values('103','2-733-002','Habilitado','Uriel','Valerio','Vega','La Virgen','85897154','100','0','12/12/2012','24/12/2013','Nacho','Nacho');
+select * from clientesCreditoAsociados;
+
+create table Contado
+(
+	id_CodigoCliente integer
+	
+);
+
+create table Factura
+(
+	id_NumeroFactura integer NOT NULL,
+	id_CodigoCliente integer NOT NULL,
+	nombreCliente varchar (4000) NOT NULL,
+	cedula varchar(4000) NOT NULL,
+	numeroCliente varchar (4000) NOT NULL,
+	direccionCliente varchar(4000) NOT NULL,
+	telefonoCliente varchar (4000),
+	tipoVenta varchar (4000) NOT NULL,
+	descuento varchar(4000),
+	totalNeto varchar(4000) NOT NULL,
+	fechaCompra DATE NOT NULL,
+	CONSTRAINT pk_id_NumeroFactura PRIMARY KEY(id_NumeroFactura)
+);
+select * from Factura;
+Insert into Factura (id_NumeroFactura,nombreCliente,cedula,numeroCliente,direccionCliente,telefonoCliente,tipoVenta,descuento,totalNeto,fechaCompra)
+Values('4','Ignacio Valerio Vega','2691083','GF34','Frente la iglesia catolica de La Virgen','87120056','Contado','0','32000','30/12/2013');
+
+CREATE TABLE Inventario
+(
+	id_CodigoProducto integer,
+	descripcionProducto varchar(4000),
+	cantidadProductoInventario varchar(4000),
+	costoProductoUnitario varchar(4000),
+	nombreProveedor varchar (4000),
+	fechaEntrada Date,
+	costoTotal varchar(4000),
+	constraint pk_id_CodigoProducto primary KEY(id_CodigoProducto)
+);
+select * from Inventario;
+drop table Inventario;
+
+
+
+CREATE TABLE RegistroIncio
+(
+	ID_HoraInicio Date,
+	CodigoEmpleado varchar(4000),
+	NombreEmpleado varchar(4000),
+	tipoEmpleado varchar (4000),
+	constraint pk_ID_HoraInicio primary KEY(ID_HoraInicio)
+);
+

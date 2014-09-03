@@ -1,0 +1,342 @@
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe.config
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\MySql.Data.dll
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csprojResolveAssemblyReference.cache
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmAcercaDe.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarEmpleado.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmCambiarContrasenna.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralClientes.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralDepartamentos.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralEmpleado.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralInventario.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscador.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmCalculadora.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarEmpleado.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarProducto.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmFacturacion.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmGeneradorBarras.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmHistorialVentas.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarProductos.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmListaArchivos.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmLogin.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmModificarPrivilegios.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmVerDetallesEmpleado.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.Properties.Resources.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csproj.GenerateResource.Cache
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarEmpleado.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\AForge.Video.dll
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmGestorCamara.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarCliente.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.de.resources
+C:\Users\Ignacio Valerio\Desktop\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe.config
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\AForge.Video.dll
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\MySql.Data.dll
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\bin\Debug\MySql.Data.Entity.dll
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csprojResolveAssemblyReference.cache
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmAcercaDe.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarCliente.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarEmpleado.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarEmpleado.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmCambiarContrasenna.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralClientes.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralDepartamentos.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralEmpleado.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralInventario.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscador.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmCalculadora.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarEmpleado.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarProducto.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmFacturacion.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmGeneradorBarras.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmGestorCamara.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmHistorialVentas.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarProductos.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmListaArchivos.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmLogin.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmModificarPrivilegios.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmVerDetallesEmpleado.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.Properties.Resources.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.de.resources
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csproj.GenerateResource.Cache
+C:\Users\Ignacio Valerio\OneDrive\slnAppClientesAsociadosCredito\appClientesAsociadosCredito\obj\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe.config
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\bin\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csprojResolveAssemblyReference.cache
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmAcercaDe.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarCliente.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarEmpleado.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarEmpleado.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmCambiarContrasenna.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralClientes.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralDepartamentos.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralEmpleado.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralInventario.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscador.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmCalculadora.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarEmpleado.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarProducto.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmFacturacion.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmGeneradorBarras.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmGestorCamara.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmHistorialVentas.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarProductos.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmListaArchivos.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmLogin.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmModificarPrivilegios.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmVerDetallesEmpleado.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.Properties.Resources.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.de.resources
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csproj.GenerateResource.Cache
+C:\Users\Ignacio\Desktop\Proyecto\appClientesAsociadosCredito\obj\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe.config
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.exe
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.pdb
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.pdb
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\bin\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csprojResolveAssemblyReference.cache
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmAcercaDe.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarCliente.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarEmpleado.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarEmpleado.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmCambiarContrasenna.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralClientes.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralDepartamentos.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralEmpleado.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralInventario.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscador.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmCalculadora.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarEmpleado.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarProducto.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmFacturacion.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmGeneradorBarras.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmGestorCamara.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmHistorialVentas.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarProductos.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmListaArchivos.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmLogin.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmModificarPrivilegios.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmVerDetallesEmpleado.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.Properties.Resources.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.de.resources
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csproj.GenerateResource.Cache
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\ivale_000\Dropbox\Proyecto\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.GUI.frmNuevoVendedor.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe.config
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.exe
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.pdb
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.pdb
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csprojResolveAssemblyReference.cache
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAcercaDe.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarCliente.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarEmpleado.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarEmpleado.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmCambiarContrasenna.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralClientes.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralDepartamentos.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralEmpleado.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralInventario.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscador.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmCalculadora.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarEmpleado.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarProducto.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmFacturacion.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmGeneradorBarras.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmGestorCamara.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmHistorialVentas.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarProductos.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmListaArchivos.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmLogin.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmModificarPrivilegios.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.GUI.frmNuevoVendedor.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmVerDetallesEmpleado.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.Properties.Resources.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.de.resources
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csproj.GenerateResource.Cache
+C:\Users\ivale_000\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\de\appClientesAsociadosCredito.resources.dll
+E:\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe.config
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.exe
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.pdb
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csprojResolveAssemblyReference.cache
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAcercaDe.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarCliente.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarEmpleado.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarEmpleado.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmCambiarContrasenna.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralClientes.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralDepartamentos.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralEmpleado.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralInventario.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscador.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmCalculadora.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarEmpleado.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarProducto.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmFacturacion.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmGeneradorBarras.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmGestorCamara.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmHistorialVentas.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarProductos.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmListaArchivos.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmLogin.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmModificarPrivilegios.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.GUI.frmNuevoVendedor.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmPrincipal.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmSeleccionBaseDatos.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmVerDetallesEmpleado.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.Properties.Resources.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.de.resources
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csproj.GenerateResource.Cache
+E:\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe
+E:\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.pdb
+E:\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\de\appClientesAsociadosCredito.resources.dll
+E:\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe.config
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csprojResolveAssemblyReference.cache
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAcercaDe.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarCliente.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarEmpleado.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarEmpleado.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmCambiarContrasenna.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralClientes.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralDepartamentos.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralEmpleado.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralInventario.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscador.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmCalculadora.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarEmpleado.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarProducto.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmFacturacion.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmGeneradorBarras.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmGestorCamara.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmHistorialVentas.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarProductos.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmListaArchivos.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmLogin.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmModificarPrivilegios.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.GUI.frmNuevoVendedor.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmSeleccionBaseDatos.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmVerDetallesEmpleado.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.Properties.Resources.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.de.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csproj.GenerateResource.Cache
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\Npgsql.dll
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmConfiguracionBaseDatos.resources
+C:\Users\Ignacio\Desktop\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmValidarUsuario.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe.config
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\Npgsql.dll
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csprojResolveAssemblyReference.cache
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAcercaDe.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarCliente.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarEmpleado.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarEmpleado.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmCambiarContrasenna.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmConfiguracionBaseDatos.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralClientes.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralDepartamentos.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralEmpleado.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralInventario.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscador.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmCalculadora.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarEmpleado.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarProducto.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmFacturacion.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmGeneradorBarras.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmGestorCamara.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmHistorialVentas.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarProductos.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmListaArchivos.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmLogin.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmModificarPrivilegios.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.GUI.frmNuevoVendedor.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmSeleccionBaseDatos.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmValidarUsuario.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmVerDetallesEmpleado.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.Properties.Resources.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.de.resources
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csproj.GenerateResource.Cache
+C:\Users\Ignacio\Dropbox\Proyecto\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe.config
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.exe
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\appClientesAsociadosCredito.pdb
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\de\appClientesAsociadosCredito.resources.dll
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\bin\Debug\Npgsql.dll
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csprojResolveAssemblyReference.cache
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAcercaDe.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarCliente.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarEmpleado.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarEmpleado.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmCambiarContrasenna.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmConfiguracionBaseDatos.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralClientes.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralDepartamentos.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralEmpleado.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmControlGeneralInventario.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscador.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmCalculadora.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarEmpleado.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmEditarProducto.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmFacturacion.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmGeneradorBarras.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmGestorCamara.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmHistorialVentas.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmAgregarProductos.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmListaArchivos.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmLogin.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmModificarPrivilegios.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.GUI.frmNuevoVendedor.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmPrincipal.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmSeleccionBaseDatos.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmValidarUsuario.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmVerDetallesEmpleado.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.Properties.Resources.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\GUI.frmBuscarProductos.de.resources
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\appClientesAsociadosCredito.csproj.GenerateResource.Cache
+C:\Users\Ignacio\Desktop\Sistema-Punto-De-Venta\Sistema Facturación C#\appClientesAsociadosCredito\obj\Debug\de\appClientesAsociadosCredito.resources.dll

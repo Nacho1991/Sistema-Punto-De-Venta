@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Configuración-->
+<Parametros>
+  <Conexion>
+    <Tipo>Oracle SQL</Tipo>
+    <Usuario>q</Usuario>
+    <Password>q</Password>
+    <Server>q</Server>
+    <DataBase>q</DataBase>
+    <Schema>q</Schema>
+    <Port>q</Port>
+  </Conexion>
+</Parametros>

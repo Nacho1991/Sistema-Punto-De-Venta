@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Configuración-->
+<Parametros>
+  <Conexion>
+    <Tipo>MySQL</Tipo>
+    <Usuario>root</Usuario>
+    <Password>42405659i</Password>
+    <Server>localhost</Server>
+    <DataBase>multicomercial</DataBase>
+    <Schema>XE</Schema>
+    <Port>3306</Port>
+  </Conexion>
+</Parametros>

@@ -1,4 +1,6 @@
-﻿using GestorArchivos;
+﻿using Estructuras;
+using GestorArchivos;
+using Logica;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -27,72 +29,36 @@ namespace GUI
         }
         public void mostrarCarga() 
         {
-            if (File.Exists(Application.StartupPath + "\\" + tipoBaseDatos + ".xml"))
-            {
-                DataSet config = cargarArchivoConfiguracion(ref error,tipoBaseDatos);
-                if (error == "")
-                {
-                    txtServidor.Text = config.Tables[0].Rows[0]["Server"].ToString();
-                    txtPuerto.Text = config.Tables[0].Rows[0]["Port"].ToString();
-                    txtBaseDatos.Text = config.Tables[0].Rows[0]["DataBase"].ToString();
-                    txtUsuario.Text = config.Tables[0].Rows[0]["Usuario"].ToString();
-                    txtContrasenna.Text = config.Tables[0].Rows[0]["Password"].ToString();
-                    txtEsquema.Text = config.Tables[0].Rows[0]["Schema"].ToString();
-                }
-                else
-                {
-                    MessageBox.Show("Error al intentar leer el archivo de configuración, por favor verifique de que el archivo exista.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-            else
-            {
-                if (MessageBox.Show("El archivo de configuración no existe. ¿Desea crear el archivo de configuración?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
-                {
-                    Close();
-                }
-                else
-                {
-                    oG.conectarArchivoXml(tipoBaseDatos);
-                }
-            }
-        }
-        public static DataSet cargarArchivoConfiguracion(ref string estado,string pTipoBaseDatos)
-        {
-            DataSet dsetConf = new DataSet();
-            estado = "";
             try
             {
-                string archivoXML = Application.StartupPath + "\\" + pTipoBaseDatos + ".xml";
-                System.IO.FileStream fsReadXml =
-                                 new System.IO.FileStream(archivoXML, System.IO.FileMode.Open);
-                dsetConf.ReadXml(fsReadXml);
-                fsReadXml.Close();
+                XmlCL oXml = new XmlCL(tipoBaseDatos);
+                List<EstructuraXml> respuesta = oXml.ObtenerDatosXml();
+                if (respuesta.Count > 0)
+                {
+                    txtServidor.Text = respuesta[0].Servidor;
+                    txtPuerto.Text = respuesta[0].Puerto;
+                    txtBaseDatos.Text = respuesta[0].BaseDatos;
+                    txtUsuario.Text = respuesta[0].Usuario;
+                    txtContrasenna.Text = respuesta[0].Contrasenna;
+                    txtEsquema.Text = respuesta[0].Esquema;
+                }
             }
-            catch (Exception e)
-            
+            catch 
             {
-                estado = "Ha ocurrido un error cargando los parámetros de conexión " +
-                         "a la base de datos, detalle técnico: " + e.Message;
             }
-            return dsetConf;
         }
         private void btnAplicar_Click(object sender, EventArgs e)
         {
-            frmValidarUsuario oValidate = new frmValidarUsuario();
-            oValidate.ShowDialog();
-            if (oValidate.Aceptar == true)
+            AccesoDatosXml oXml = new AccesoXml(tipoBaseDatos);
+            oXml.Conectar(tipoBaseDatos, txtUsuario.Text, txtContrasenna.Text, txtServidor.Text, txtBaseDatos.Text, txtEsquema.Text, txtPuerto.Text);
+            if (oXml.isError)
             {
-                oG.manipularXML(lblTipoBaseDatos.Text, txtUsuario.Text, txtContrasenna.Text, txtServidor.Text,
-                    txtBaseDatos.Text, txtEsquema.Text, txtPuerto.Text, lblTipoBaseDatos.Text);
-                if (oG.Error)
-                {
-                    MessageBox.Show(oG.ErrorDescripcion, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else
-                {
-                    MessageBox.Show("Parametros modificados satisfactoriamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    Close();
-                }
+                MessageBox.Show(oXml.ErrorDescripcion, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else 
+            {
+                MessageBox.Show("Parametros de configuración cambiados con éxito.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Close();
             }
         }
 

@@ -7,7 +7,7 @@
     <Password>42405659i</Password>
     <Server>localhost</Server>
     <DataBase>multicomercial</DataBase>
-    <Schema>XE</Schema>
+    <Schema></Schema>
     <Port>3306</Port>
   </Conexion>
 </Parametros>

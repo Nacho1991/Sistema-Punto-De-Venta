@@ -31,11 +31,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pnlDetalles = new System.Windows.Forms.GroupBox();
+            this.lblMySql = new System.Windows.Forms.Label();
             this.lnkOpcionesAvanzadas = new System.Windows.Forms.LinkLabel();
             this.btnSeleccionar = new System.Windows.Forms.Button();
             this.pnlSoftValue = new System.Windows.Forms.GroupBox();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.lblMySql = new System.Windows.Forms.Label();
+            this.chkOcultarForm = new System.Windows.Forms.CheckBox();
             this.pnlDetalles.SuspendLayout();
             this.pnlSoftValue.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +52,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 43);
+            this.label2.Location = new System.Drawing.Point(94, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(156, 15);
             this.label2.TabIndex = 1;
@@ -59,6 +60,7 @@
             // 
             // pnlDetalles
             // 
+            this.pnlDetalles.Controls.Add(this.chkOcultarForm);
             this.pnlDetalles.Controls.Add(this.lblMySql);
             this.pnlDetalles.Controls.Add(this.lnkOpcionesAvanzadas);
             this.pnlDetalles.Controls.Add(this.label2);
@@ -69,6 +71,15 @@
             this.pnlDetalles.TabIndex = 2;
             this.pnlDetalles.TabStop = false;
             this.pnlDetalles.Text = "Detalles";
+            // 
+            // lblMySql
+            // 
+            this.lblMySql.AutoSize = true;
+            this.lblMySql.Location = new System.Drawing.Point(256, 35);
+            this.lblMySql.Name = "lblMySql";
+            this.lblMySql.Size = new System.Drawing.Size(47, 15);
+            this.lblMySql.TabIndex = 4;
+            this.lblMySql.Text = "MySQL";
             // 
             // lnkOpcionesAvanzadas
             // 
@@ -115,14 +126,15 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // lblMySql
+            // chkOcultarForm
             // 
-            this.lblMySql.AutoSize = true;
-            this.lblMySql.Location = new System.Drawing.Point(195, 43);
-            this.lblMySql.Name = "lblMySql";
-            this.lblMySql.Size = new System.Drawing.Size(47, 15);
-            this.lblMySql.TabIndex = 4;
-            this.lblMySql.Text = "MySQL";
+            this.chkOcultarForm.AutoSize = true;
+            this.chkOcultarForm.Location = new System.Drawing.Point(6, 65);
+            this.chkOcultarForm.Name = "chkOcultarForm";
+            this.chkOcultarForm.Size = new System.Drawing.Size(141, 19);
+            this.chkOcultarForm.TabIndex = 5;
+            this.chkOcultarForm.Text = "No volver a mostrarlo";
+            this.chkOcultarForm.UseVisualStyleBackColor = true;
             // 
             // frmSeleccionBaseDatos
             // 
@@ -158,5 +170,6 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.LinkLabel lnkOpcionesAvanzadas;
         private System.Windows.Forms.Label lblMySql;
+        private System.Windows.Forms.CheckBox chkOcultarForm;
     }
 }

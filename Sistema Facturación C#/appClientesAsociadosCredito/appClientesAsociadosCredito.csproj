@@ -81,6 +81,12 @@
     <Compile Include="Datos\Cliente.cs" />
     <Compile Include="Datos\Departamento.cs" />
     <Compile Include="CodigoBarras\GeneradorBarras.cs" />
+    <Compile Include="Estructuras\EstructurasTxt.cs" />
+    <Compile Include="Estructuras\EstructuraXml.cs" />
+    <Compile Include="GestorArchivos\AccesoDatosTxt.cs" />
+    <Compile Include="GestorArchivos\AccesoDatosXml.cs" />
+    <Compile Include="GestorArchivos\AccesoXml.cs" />
+    <Compile Include="GestorArchivos\AccessoTxt.cs" />
     <Compile Include="GestorArchivos\Archivo.cs" />
     <Compile Include="GestorArchivos\GestorXML.cs" />
     <Compile Include="GUI\frmAcercaDe.cs">
@@ -265,6 +271,7 @@
     <Compile Include="Logica\PrivilegiosL.cs" />
     <Compile Include="Logica\UsuarioD.cs" />
     <Compile Include="Logica\UsuarioL.cs" />
+    <Compile Include="Logica\XmlCL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\frmAcercaDe.resx">

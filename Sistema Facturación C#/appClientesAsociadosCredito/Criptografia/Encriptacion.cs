@@ -56,8 +56,7 @@ namespace Criptografia
             tdes.Clear();
 
             //se regresa el resultado en forma de una cadena
-            return Convert.ToBase64String(ArrayResultado,
-            0, ArrayResultado.Length);
+            return Convert.ToBase64String(ArrayResultado, 0, ArrayResultado.Length);
         }
         public string Desencriptar(string textoEncriptado)
         {

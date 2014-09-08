@@ -44,20 +44,13 @@ namespace GestorArchivos
                     escritor.WriteLine(hilera);
                     escritor.Close();
                 }
+
             }
             catch (Exception xp)
             {
                 isError = true;
                 ErrorDescripcion = xp.Message;
             }
-        }
-
-        /*Metodo que nos ayudara a ingresar correctamente al sistema,
-        en caso de algun error de digitacion o existencia de usuario, nos mostrara un error acontinuacion*/
-        public bool ValidarAcceso(string pCedula, string pContrasenna)
-        {
-            bool userExistente = false;
-            return userExistente;
         }
 
         /*Metodo que nos editará algunos datos del candidato, tendra que estar obviamente conectado al sistema,

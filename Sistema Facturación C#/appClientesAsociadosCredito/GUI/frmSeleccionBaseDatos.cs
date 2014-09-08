@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,17 +16,28 @@ namespace GUI
     {
         private string seleccion;
         private bool aceptar;
+        private string ruta;
+        private TxtCL oTxt;
         public frmSeleccionBaseDatos()
         {
             InitializeComponent();
+            ruta = Application.StartupPath + "\\" + "configForm.txt";
             seleccion = "";
             aceptar = false;
+            oTxt = new TxtCL();
         }
         public void escribirEstado()
         {
-            TxtCL oTxt = new TxtCL();
             string hilera = "Mostrar," + chkOcultarForm.Checked.ToString() + ",MySQL";
-            oTxt.RegistrarEstado(hilera);
+            oTxt.Escribir(hilera);
+            if (oTxt.isError)
+            {
+                MessageBox.Show("Error al intentar establecer la configuración de ocultar el formulario." + oTxt.errorDescripcion, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        public void editarEstado() 
+        {
+            oTxt.Editar("Mostrar,", "Mostrar," + chkOcultarForm.Checked.ToString() + ",MySQL");
             if (oTxt.isError) 
             {
                 MessageBox.Show("Error al intentar establecer la configuración de ocultar el formulario." + oTxt.errorDescripcion, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -38,6 +50,7 @@ namespace GUI
 
         private void btnSeleccionar_Click(object sender, EventArgs e)
         {
+            string estado = "";
             if (!chkOcultarForm.Checked)
             {
                 if (lblMySql.Text == "")
@@ -52,7 +65,18 @@ namespace GUI
             }
             else
             {
-                escribirEstado();
+                StreamReader sr = new StreamReader(ruta);
+                string linea;
+                if ((linea = sr.ReadLine()) == null)
+                {
+                    sr.Close();
+                    escribirEstado();
+                }
+                else 
+                {
+                    sr.Close();
+                    editarEstado();
+                }
                 MessageBox.Show("Ha solicitado no volver a mostrar éste formulario, si desea cambiar los parametros, lo puede hacer desde la ventana principal en la pestaña Sistema/Configuración", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 aceptar = true;
                 Close();

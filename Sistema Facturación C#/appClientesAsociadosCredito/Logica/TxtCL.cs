@@ -15,12 +15,21 @@ namespace Logica
         {
             accesoDatos = new AccessoTxt();
         }
-        public void RegistrarEstado(string pEstado)
+        public void Escribir(string pEstado)
         {
             accesoDatos.Escribir(pEstado);
             if (accesoDatos.isError)
             {
                 isError = true;
+                errorDescripcion = accesoDatos.ErrorDescripcion;
+            }
+        }
+        public void Eliminar(string pID)
+        {
+            accesoDatos.Eliminar(pID);
+            if (accesoDatos.isError)
+            {
+                isError = accesoDatos.isError;
                 errorDescripcion = accesoDatos.ErrorDescripcion;
             }
         }

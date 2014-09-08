@@ -1,2 +1,1 @@
-Mostrar,False,MySQL
 Mostrar,True,MySQL

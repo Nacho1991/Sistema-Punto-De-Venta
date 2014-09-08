@@ -9,6 +9,7 @@ using GUI;
 using MySql.Data.MySqlClient;
 using AccesoDatos;
 using GestorArchivos;
+using Criptografia;
 
 
 namespace appClientesAsociadosCredito
@@ -22,6 +23,8 @@ namespace appClientesAsociadosCredito
         [STAThread]
         static void Main()
         {
+            Encriptacion oE = new Encriptacion();
+            MessageBox.Show(oE.Encriptar("Ignacio"));
             string error = "";
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

@@ -77,6 +77,7 @@
     <Compile Include="CodigoBarras\program.cs" />
     <Compile Include="CodigoBarras\program39.cs" />
     <Compile Include="CodigoBarras\sf.cs" />
+    <Compile Include="Criptografia\Encriptacion.cs" />
     <Compile Include="Datos\BuscadorCliente.cs" />
     <Compile Include="Datos\Cliente.cs" />
     <Compile Include="Datos\Departamento.cs" />

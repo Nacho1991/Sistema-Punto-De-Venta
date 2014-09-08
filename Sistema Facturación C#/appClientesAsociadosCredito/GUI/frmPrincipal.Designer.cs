@@ -78,9 +78,13 @@
             this.btnGestorEmpleado = new System.Windows.Forms.RibbonButton();
             this.tabSistema = new System.Windows.Forms.RibbonTab();
             this.pnlHistorialVentas = new System.Windows.Forms.RibbonPanel();
+            this.btnHistorialVentas = new System.Windows.Forms.RibbonButton();
             this.pnlHistorialSesion = new System.Windows.Forms.RibbonPanel();
+            this.btnVerHistorial = new System.Windows.Forms.RibbonButton();
             this.pnlExportRespaldo = new System.Windows.Forms.RibbonPanel();
+            this.btnExportarRespaldo = new System.Windows.Forms.RibbonButton();
             this.pnlImportRespaldo = new System.Windows.Forms.RibbonPanel();
+            this.btnImportarRespaldo = new System.Windows.Forms.RibbonButton();
             this.pnlConfiguracion = new System.Windows.Forms.RibbonPanel();
             this.btnCambiarConfig = new System.Windows.Forms.RibbonButton();
             this.ribbonSeparator2 = new System.Windows.Forms.RibbonSeparator();
@@ -98,13 +102,12 @@
             this.txtID = new System.Windows.Forms.RibbonTextBox();
             this.sptSeparador = new System.Windows.Forms.RibbonSeparator();
             this.txtCodigo = new System.Windows.Forms.RibbonTextBox();
+            this.sptSeparadorDos = new System.Windows.Forms.RibbonSeparator();
             this.btnActivar = new System.Windows.Forms.RibbonButton();
             this.btnAgregarCliente = new System.Windows.Forms.RibbonButton();
-            this.btnImportarRespaldo = new System.Windows.Forms.RibbonButton();
-            this.btnExportarRespaldo = new System.Windows.Forms.RibbonButton();
-            this.btnVerHistorial = new System.Windows.Forms.RibbonButton();
-            this.btnHistorialVentas = new System.Windows.Forms.RibbonButton();
-            this.sptSeparadorDos = new System.Windows.Forms.RibbonSeparator();
+            this.sptSeparadoSistemaUno = new System.Windows.Forms.RibbonSeparator();
+            this.chkMostrarInicio = new System.Windows.Forms.RibbonCheckBox();
+            this.chkMostrarInicioApp = new System.Windows.Forms.RibbonCheckBox();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -432,11 +435,23 @@
             this.pnlHistorialVentas.Items.Add(this.btnHistorialVentas);
             this.pnlHistorialVentas.Text = "Historial de ventas";
             // 
+            // btnHistorialVentas
+            // 
+            this.btnHistorialVentas.Image = ((System.Drawing.Image)(resources.GetObject("btnHistorialVentas.Image")));
+            this.btnHistorialVentas.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnHistorialVentas.SmallImage")));
+            this.btnHistorialVentas.Text = "";
+            // 
             // pnlHistorialSesion
             // 
             this.pnlHistorialSesion.ButtonMoreVisible = false;
             this.pnlHistorialSesion.Items.Add(this.btnVerHistorial);
             this.pnlHistorialSesion.Text = "Historial de inicio de sesión";
+            // 
+            // btnVerHistorial
+            // 
+            this.btnVerHistorial.Image = ((System.Drawing.Image)(resources.GetObject("btnVerHistorial.Image")));
+            this.btnVerHistorial.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnVerHistorial.SmallImage")));
+            this.btnVerHistorial.Text = "";
             // 
             // pnlExportRespaldo
             // 
@@ -444,15 +459,29 @@
             this.pnlExportRespaldo.Items.Add(this.btnExportarRespaldo);
             this.pnlExportRespaldo.Text = "Exportar respaldo";
             // 
+            // btnExportarRespaldo
+            // 
+            this.btnExportarRespaldo.Image = ((System.Drawing.Image)(resources.GetObject("btnExportarRespaldo.Image")));
+            this.btnExportarRespaldo.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnExportarRespaldo.SmallImage")));
+            this.btnExportarRespaldo.Text = "gdfgdg";
+            // 
             // pnlImportRespaldo
             // 
             this.pnlImportRespaldo.ButtonMoreVisible = false;
             this.pnlImportRespaldo.Items.Add(this.btnImportarRespaldo);
             this.pnlImportRespaldo.Text = "Importar respaldo";
             // 
+            // btnImportarRespaldo
+            // 
+            this.btnImportarRespaldo.Image = ((System.Drawing.Image)(resources.GetObject("btnImportarRespaldo.Image")));
+            this.btnImportarRespaldo.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnImportarRespaldo.SmallImage")));
+            this.btnImportarRespaldo.Text = "";
+            // 
             // pnlConfiguracion
             // 
             this.pnlConfiguracion.Items.Add(this.btnCambiarConfig);
+            this.pnlConfiguracion.Items.Add(this.sptSeparadoSistemaUno);
+            this.pnlConfiguracion.Items.Add(this.chkMostrarInicioApp);
             this.pnlConfiguracion.Text = "Configuración";
             // 
             // btnCambiarConfig
@@ -576,6 +605,10 @@
             this.txtCodigo.Text = "Código:";
             this.txtCodigo.TextBoxText = "";
             // 
+            // sptSeparadorDos
+            // 
+            this.sptSeparadorDos.Text = "*";
+            // 
             // btnActivar
             // 
             this.btnActivar.Image = ((System.Drawing.Image)(resources.GetObject("btnActivar.Image")));
@@ -588,33 +621,18 @@
             this.btnAgregarCliente.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnAgregarCliente.SmallImage")));
             this.btnAgregarCliente.Text = "Agregar cliente";
             // 
-            // btnImportarRespaldo
+            // sptSeparadoSistemaUno
             // 
-            this.btnImportarRespaldo.Image = ((System.Drawing.Image)(resources.GetObject("btnImportarRespaldo.Image")));
-            this.btnImportarRespaldo.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnImportarRespaldo.SmallImage")));
-            this.btnImportarRespaldo.Text = "";
+            this.sptSeparadoSistemaUno.Text = "Separador";
             // 
-            // btnExportarRespaldo
+            // chkMostrarInicio
             // 
-            this.btnExportarRespaldo.Image = ((System.Drawing.Image)(resources.GetObject("btnExportarRespaldo.Image")));
-            this.btnExportarRespaldo.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnExportarRespaldo.SmallImage")));
-            this.btnExportarRespaldo.Text = "gdfgdg";
+            this.chkMostrarInicio.Text = "Mostrar opción de configuración al inicio";
             // 
-            // btnVerHistorial
+            // chkMostrarInicioApp
             // 
-            this.btnVerHistorial.Image = ((System.Drawing.Image)(resources.GetObject("btnVerHistorial.Image")));
-            this.btnVerHistorial.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnVerHistorial.SmallImage")));
-            this.btnVerHistorial.Text = "";
-            // 
-            // btnHistorialVentas
-            // 
-            this.btnHistorialVentas.Image = ((System.Drawing.Image)(resources.GetObject("btnHistorialVentas.Image")));
-            this.btnHistorialVentas.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnHistorialVentas.SmallImage")));
-            this.btnHistorialVentas.Text = "";
-            // 
-            // sptSeparadorDos
-            // 
-            this.sptSeparadorDos.Text = "*";
+            this.chkMostrarInicioApp.Text = "Mostrar configuración al inicio";
+            this.chkMostrarInicioApp.CheckBoxCheckChanged += new System.EventHandler(this.chkMostrarInicioApp_CheckBoxCheckChanged);
             // 
             // frmPrincipal
             // 
@@ -720,6 +738,9 @@
         private System.Windows.Forms.RibbonButton btnVerHistorial;
         private System.Windows.Forms.RibbonButton btnHistorialVentas;
         private System.Windows.Forms.RibbonSeparator sptSeparadorDos;
+        private System.Windows.Forms.RibbonSeparator sptSeparadoSistemaUno;
+        private System.Windows.Forms.RibbonCheckBox chkMostrarInicioApp;
+        private System.Windows.Forms.RibbonCheckBox chkMostrarInicio;
 
     }
 }

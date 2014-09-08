@@ -32,5 +32,6 @@ namespace GestorArchivos
 
         //Nos presentara, una breve descripcion sobre el error que esta ocurriendo
         string ErrorDescripcion { set; get; }
+        string TipoBaseDatos { get; set; }
     }
 }

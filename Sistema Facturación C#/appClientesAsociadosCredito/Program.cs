@@ -23,14 +23,12 @@ namespace appClientesAsociadosCredito
         static void Main()
         {
             string error = "";
-            bool iniciarAplicacion = false;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            frmSeleccionBaseDatos oSeleccion = new frmSeleccionBaseDatos();
-            oSeleccion.ShowDialog();
-            if (oSeleccion.Aceptar)
+            TxtCL oTxt = new TxtCL();
+            if ((oTxt.ValidarEstado("Mostrar")))
             {
-                DataSet config = cargarArchivoConfiguracionMySQL(ref error, oSeleccion.Seleccion);
+                DataSet config = cargarArchivoConfiguracionMySQL(ref error, oTxt.tipoBaseDatos);
                 if (error == "")
                 {
                     //Variables que almacenan los parametros de conexión
@@ -57,7 +55,6 @@ namespace appClientesAsociadosCredito
                     }
                     else
                     {
-                        iniciarAplicacion = true;
                         MessageBox.Show("Error conectando, detalle: " + conexion.ErrorDescripcion, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
@@ -66,7 +63,48 @@ namespace appClientesAsociadosCredito
                     MessageBox.Show(error, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-                
+            else
+            {
+                frmSeleccionBaseDatos oSeleccion = new frmSeleccionBaseDatos();
+                oSeleccion.ShowDialog();
+                if (oSeleccion.Aceptar)
+                {
+                    DataSet config = cargarArchivoConfiguracionMySQL(ref error, oSeleccion.Seleccion);
+                    if (error == "")
+                    {
+                        //Variables que almacenan los parametros de conexión
+                        string server = config.Tables[0].Rows[0]["Server"].ToString();
+                        string port = config.Tables[0].Rows[0]["Port"].ToString();
+                        string database = config.Tables[0].Rows[0]["DataBase"].ToString();
+                        string user = config.Tables[0].Rows[0]["Usuario"].ToString();
+                        string pass = config.Tables[0].Rows[0]["Password"].ToString();
+
+                        //Esta variable alamcena la cadena de conexion con los parametros extraidos
+                        string cadenaConexion = "Server=" + server + ";" + "database=" + database + ";" + "Uid=" + user + ";" + " pwd=" + pass + ";" + "port=" + 3306 + ";";
+                        //Se envia por parametro la cadena de conexion
+                        AccesoDatosMySql conexion = new AccesoDatosMySql(cadenaConexion);
+                        //Si el estado de conexion es correcta
+                        if (conexion.estado())
+                        {
+                            frmLogin oLogin = new frmLogin(conexion);
+                            oLogin.ShowDialog();
+                            if (oLogin.Aceptar)
+                            {
+                                oUsuarioLogueado = oLogin.OUsuario;
+                                Application.Run(new frmPrincipal(conexion, conexion.estado()));
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Error conectando, detalle: " + conexion.ErrorDescripcion, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show(error, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
         }
         //Metodo encargado de leer el archivo XML
         public static DataSet cargarArchivoConfiguracionMySQL(ref string estado, string pTipoBaseDatos)
@@ -88,6 +126,7 @@ namespace appClientesAsociadosCredito
             }
             return dsetConf;
         }
+
     }
 }
 

@@ -339,5 +339,21 @@ namespace GUI
             frmConfiguracionBaseDatos oConfig = new frmConfiguracionBaseDatos("MySQL");
             oConfig.ShowDialog();
         }
+
+        private void chkMostrarInicioApp_CheckBoxCheckChanged(object sender, EventArgs e)
+        {
+            TxtCL oTxt = new TxtCL();
+            bool estado = true;
+            if (chkMostrarInicioApp.Checked)
+            {
+                estado = false;
+            }
+            string hilera = "Mostrar," + estado + ",MySQL";
+            oTxt.Editar("Mostrar", hilera);
+            if (oTxt.isError)
+            {
+                MessageBox.Show("Error al intentar establecer la configuración de ocultar el formulario." + oTxt.errorDescripcion, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

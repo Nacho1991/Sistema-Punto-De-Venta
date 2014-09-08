@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Logica;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,7 +21,16 @@ namespace GUI
             seleccion = "";
             aceptar = false;
         }
-
+        public void escribirEstado()
+        {
+            TxtCL oTxt = new TxtCL();
+            string hilera = "Mostrar," + chkOcultarForm.Checked.ToString() + ",MySQL";
+            oTxt.RegistrarEstado(hilera);
+            if (oTxt.isError) 
+            {
+                MessageBox.Show("Error al intentar establecer la configuración de ocultar el formulario." + oTxt.errorDescripcion, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
@@ -28,12 +38,22 @@ namespace GUI
 
         private void btnSeleccionar_Click(object sender, EventArgs e)
         {
-            if (lblMySql.Text == "")
+            if (!chkOcultarForm.Checked)
             {
-                MessageBox.Show("Por favor seleccione una de las Bases de Datos para iniciar la aplicación.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (lblMySql.Text == "")
+                {
+                    MessageBox.Show("Por favor seleccione una de las Bases de Datos para iniciar la aplicación.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    aceptar = true;
+                    Close();
+                }
             }
             else
             {
+                escribirEstado();
+                MessageBox.Show("Ha solicitado no volver a mostrar éste formulario, si desea cambiar los parametros, lo puede hacer desde la ventana principal en la pestaña Sistema/Configuración", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 aceptar = true;
                 Close();
             }

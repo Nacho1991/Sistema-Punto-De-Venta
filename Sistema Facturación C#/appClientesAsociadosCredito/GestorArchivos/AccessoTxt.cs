@@ -11,7 +11,8 @@ namespace GestorArchivos
     public class AccessoTxt : AccesoDatosTxt
     {
         //ruta en la cual vamos a guardar nuestro documento de texto con los candidatos registrados
-        string ruta = Application.StartupPath + "configForm.txt";
+        string ruta = Application.StartupPath + "\\" + "configForm.txt";
+
 
         /*Metodo que nos ayudara a conectarnos al sistema. Si el archivo existe nos emitira un mensaje de error,
         pues nos creara un nuevo documento de texto*/
@@ -77,7 +78,7 @@ namespace GestorArchivos
                     string[] datos = linea.Split(new char[] { ',' });
                     if (linea.Contains(ID))
                     {
-                        agregarLinea.AppendLine(moidificar + "," + datos[2] + "," + datos[3] + "," + datos[4] + "," + datos[5]);
+                        agregarLinea.AppendLine(moidificar);
                     }
                     else
                     {
@@ -95,6 +96,11 @@ namespace GestorArchivos
                 ErrorDescripcion = xp.Message;
             }
         }
+        public string TipoBaseDatos
+        {
+            get;
+            set;
+        }
 
         //Metodo que valida los candidatos, en caso de existencia, o datos ingresados, en caso de error se notificara al usuario.
         public bool Validar(string pDatos)
@@ -108,10 +114,20 @@ namespace GestorArchivos
                 while ((line = lector.ReadLine()) != null)
                 {
                     string[] datos = line.Split(new char[] { ',' });
-                    if (datos[2] == pDatos)
+                    if (datos[0] == pDatos)
                     {
-                        existe = true;
-                        break;
+                        if (datos[1] == "True")
+                        {
+                            existe = true;
+                            TipoBaseDatos = datos[2];
+                            break;
+                        }
+                        else if (datos[1] == "False")
+                        {
+                            TipoBaseDatos = datos[2];
+                            existe = false;
+                            break;
+                        }
                     }
                     else
                     {

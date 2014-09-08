@@ -269,6 +269,7 @@
     <Compile Include="Logica\InventarioL.cs" />
     <Compile Include="Logica\PrivilegiosD.cs" />
     <Compile Include="Logica\PrivilegiosL.cs" />
+    <Compile Include="Logica\TxtCL.cs" />
     <Compile Include="Logica\UsuarioD.cs" />
     <Compile Include="Logica\UsuarioL.cs" />
     <Compile Include="Logica\XmlCL.cs" />

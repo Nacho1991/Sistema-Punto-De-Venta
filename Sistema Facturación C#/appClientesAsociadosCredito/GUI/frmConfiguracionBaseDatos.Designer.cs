@@ -45,6 +45,7 @@
             this.grbSoftValue = new System.Windows.Forms.GroupBox();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.btnAplicar = new System.Windows.Forms.Button();
+            this.btnProbarConexion = new System.Windows.Forms.Button();
             this.grbParametros.SuspendLayout();
             this.grbSoftValue.SuspendLayout();
             this.SuspendLayout();
@@ -67,7 +68,7 @@
             this.grbParametros.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grbParametros.Location = new System.Drawing.Point(0, 0);
             this.grbParametros.Name = "grbParametros";
-            this.grbParametros.Size = new System.Drawing.Size(375, 228);
+            this.grbParametros.Size = new System.Drawing.Size(412, 228);
             this.grbParametros.TabIndex = 0;
             this.grbParametros.TabStop = false;
             this.grbParametros.Text = "Parametros";
@@ -186,19 +187,20 @@
             // 
             // grbSoftValue
             // 
+            this.grbSoftValue.Controls.Add(this.btnProbarConexion);
             this.grbSoftValue.Controls.Add(this.btnCancelar);
             this.grbSoftValue.Controls.Add(this.btnAplicar);
             this.grbSoftValue.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.grbSoftValue.Location = new System.Drawing.Point(0, 228);
             this.grbSoftValue.Name = "grbSoftValue";
-            this.grbSoftValue.Size = new System.Drawing.Size(375, 58);
+            this.grbSoftValue.Size = new System.Drawing.Size(412, 58);
             this.grbSoftValue.TabIndex = 1;
             this.grbSoftValue.TabStop = false;
             this.grbSoftValue.Text = "SoftValue";
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(222, 20);
+            this.btnCancelar.Location = new System.Drawing.Point(290, 20);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(87, 27);
             this.btnCancelar.TabIndex = 1;
@@ -208,7 +210,7 @@
             // 
             // btnAplicar
             // 
-            this.btnAplicar.Location = new System.Drawing.Point(72, 20);
+            this.btnAplicar.Location = new System.Drawing.Point(44, 20);
             this.btnAplicar.Name = "btnAplicar";
             this.btnAplicar.Size = new System.Drawing.Size(87, 27);
             this.btnAplicar.TabIndex = 0;
@@ -216,12 +218,22 @@
             this.btnAplicar.UseVisualStyleBackColor = true;
             this.btnAplicar.Click += new System.EventHandler(this.btnAplicar_Click);
             // 
+            // btnProbarConexion
+            // 
+            this.btnProbarConexion.Location = new System.Drawing.Point(158, 20);
+            this.btnProbarConexion.Name = "btnProbarConexion";
+            this.btnProbarConexion.Size = new System.Drawing.Size(108, 26);
+            this.btnProbarConexion.TabIndex = 2;
+            this.btnProbarConexion.Text = "Probar conexión";
+            this.btnProbarConexion.UseVisualStyleBackColor = true;
+            this.btnProbarConexion.Click += new System.EventHandler(this.btnProbarConexion_Click);
+            // 
             // frmConfiguracionBaseDatos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(375, 286);
+            this.ClientSize = new System.Drawing.Size(412, 286);
             this.Controls.Add(this.grbParametros);
             this.Controls.Add(this.grbSoftValue);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -257,5 +269,6 @@
         private System.Windows.Forms.TextBox txtServidor;
         private System.Windows.Forms.TextBox txtEsquema;
         private System.Windows.Forms.Label lblTipoBaseDatos;
+        private System.Windows.Forms.Button btnProbarConexion;
     }
 }

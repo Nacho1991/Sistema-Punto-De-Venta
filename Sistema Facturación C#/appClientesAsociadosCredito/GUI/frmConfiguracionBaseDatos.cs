@@ -66,5 +66,25 @@ namespace GUI
         {
             Close();
         }
+
+        private void btnProbarConexion_Click(object sender, EventArgs e)
+        {
+            PruebaConexion oPrueba = new PruebaConexion();
+            if (oPrueba.isError)
+            {
+                MessageBox.Show("Se ha producido un error inesperado durante la prueba de conexión. Detalle técnico: " + oPrueba.errroDescription, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                if (oPrueba.probarConexion(txtServidor.Text, txtBaseDatos.Text, txtUsuario.Text, txtContrasenna.Text, txtPuerto.Text) == true)
+                {
+                    MessageBox.Show("La conexión y los parametros se han establecido correctamente.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("La conexión no se ha logrado establecer con los parametros establecidos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
     }
 }

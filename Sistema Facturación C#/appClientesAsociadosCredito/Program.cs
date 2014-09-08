@@ -24,7 +24,6 @@ namespace appClientesAsociadosCredito
         static void Main()
         {
             Encriptacion oE = new Encriptacion();
-            MessageBox.Show(oE.Encriptar("Ignacio"));
             string error = "";
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

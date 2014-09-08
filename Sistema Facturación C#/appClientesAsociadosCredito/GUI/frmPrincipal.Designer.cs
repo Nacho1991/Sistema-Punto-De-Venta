@@ -87,6 +87,8 @@
             this.btnImportarRespaldo = new System.Windows.Forms.RibbonButton();
             this.pnlConfiguracion = new System.Windows.Forms.RibbonPanel();
             this.btnCambiarConfig = new System.Windows.Forms.RibbonButton();
+            this.sptSeparadoSistemaUno = new System.Windows.Forms.RibbonSeparator();
+            this.chkMostrarInicioApp = new System.Windows.Forms.RibbonCheckBox();
             this.ribbonSeparator2 = new System.Windows.Forms.RibbonSeparator();
             this.ribonMenu = new System.Windows.Forms.Ribbon();
             this.menuSalir = new System.Windows.Forms.RibbonOrbMenuItem();
@@ -105,9 +107,7 @@
             this.sptSeparadorDos = new System.Windows.Forms.RibbonSeparator();
             this.btnActivar = new System.Windows.Forms.RibbonButton();
             this.btnAgregarCliente = new System.Windows.Forms.RibbonButton();
-            this.sptSeparadoSistemaUno = new System.Windows.Forms.RibbonSeparator();
             this.chkMostrarInicio = new System.Windows.Forms.RibbonCheckBox();
-            this.chkMostrarInicioApp = new System.Windows.Forms.RibbonCheckBox();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -440,6 +440,7 @@
             this.btnHistorialVentas.Image = ((System.Drawing.Image)(resources.GetObject("btnHistorialVentas.Image")));
             this.btnHistorialVentas.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnHistorialVentas.SmallImage")));
             this.btnHistorialVentas.Text = "";
+            this.btnHistorialVentas.Click += new System.EventHandler(this.btnHistorialVentas_Click);
             // 
             // pnlHistorialSesion
             // 
@@ -490,6 +491,15 @@
             this.btnCambiarConfig.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnCambiarConfig.SmallImage")));
             this.btnCambiarConfig.Text = "";
             this.btnCambiarConfig.Click += new System.EventHandler(this.btnCambiarConfig_Click);
+            // 
+            // sptSeparadoSistemaUno
+            // 
+            this.sptSeparadoSistemaUno.Text = "Separador";
+            // 
+            // chkMostrarInicioApp
+            // 
+            this.chkMostrarInicioApp.Text = "Mostrar configuración al inicio";
+            this.chkMostrarInicioApp.CheckBoxCheckChanged += new System.EventHandler(this.chkMostrarInicioApp_CheckBoxCheckChanged);
             // 
             // ribonMenu
             // 
@@ -621,18 +631,9 @@
             this.btnAgregarCliente.SmallImage = ((System.Drawing.Image)(resources.GetObject("btnAgregarCliente.SmallImage")));
             this.btnAgregarCliente.Text = "Agregar cliente";
             // 
-            // sptSeparadoSistemaUno
-            // 
-            this.sptSeparadoSistemaUno.Text = "Separador";
-            // 
             // chkMostrarInicio
             // 
             this.chkMostrarInicio.Text = "Mostrar opción de configuración al inicio";
-            // 
-            // chkMostrarInicioApp
-            // 
-            this.chkMostrarInicioApp.Text = "Mostrar configuración al inicio";
-            this.chkMostrarInicioApp.CheckBoxCheckChanged += new System.EventHandler(this.chkMostrarInicioApp_CheckBoxCheckChanged);
             // 
             // frmPrincipal
             // 

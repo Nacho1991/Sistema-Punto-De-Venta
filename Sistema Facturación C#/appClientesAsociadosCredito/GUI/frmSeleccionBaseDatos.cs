@@ -38,7 +38,7 @@ namespace GUI
         public void editarEstado() 
         {
             oTxt.Editar("Mostrar,", "Mostrar," + chkOcultarForm.Checked.ToString() + ",MySQL");
-            if (oTxt.isError) 
+            if (oTxt.isError)
             {
                 MessageBox.Show("Error al intentar establecer la configuración de ocultar el formulario." + oTxt.errorDescripcion, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -50,7 +50,6 @@ namespace GUI
 
         private void btnSeleccionar_Click(object sender, EventArgs e)
         {
-            string estado = "";
             if (!chkOcultarForm.Checked)
             {
                 if (lblMySql.Text == "")

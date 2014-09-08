@@ -355,5 +355,11 @@ namespace GUI
                 MessageBox.Show("Error al intentar establecer la configuración de ocultar el formulario." + oTxt.errorDescripcion, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnHistorialVentas_Click(object sender, EventArgs e)
+        {
+            frmHistorialVentas oVentas = new frmHistorialVentas(cnx);
+            oVentas.ShowDialog();
+        }
     }
 }

@@ -12,7 +12,11 @@ namespace Logica
 {
     class PruebaConexion
     {
-        public bool isError { get; set; }
+        public bool isError 
+        { 
+            get; 
+            set; 
+        }
         public string errroDescription { get; set; }
         public PruebaConexion() 
         {

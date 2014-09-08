@@ -11,6 +11,8 @@ using AccesoDatos;
 using Logica;
 using Datos;
 using System.Text.RegularExpressions;
+using System.Security.Cryptography;
+using Criptografia;
 
 namespace GUI
 {
@@ -18,6 +20,10 @@ namespace GUI
     {
         Empleadocs oEmpleado;
         AccesoDatosMySql cnx;
+        UnicodeEncoding ByteConverter = new UnicodeEncoding();
+        RSACryptoServiceProvider RSA = new RSACryptoServiceProvider();
+        byte[] textoPlano;
+        byte[] encryptedtext;
         public static UsuarioL oUsuarioLogueado;
         public frmControlGeneralEmpleado(AccesoDatosMySql pCnx)
         {
@@ -209,6 +215,14 @@ namespace GUI
 
         private void btnAgregarEmpleado_Click(object sender, EventArgs e)
         {
+            ////Proceso de encriptacion clave del usuario/////
+            Encriptacion oEncrip = new Encriptacion();
+            textoPlano = ByteConverter.GetBytes(txtContraseñaAgregar.Text);
+            encryptedtext = oEncrip.EncriptacionRSA(textoPlano, RSA.ExportParameters(false), false);
+            MessageBox.Show( ByteConverter.GetString(encryptedtext));
+            ////Proceso de encriptacion clave del usuario/////
+
+
             if (validarCorreo(txtCorreoElectronicoAgregar.Text))
             {
                 oEmpleado.agregarEmpleado(txtNombreAgregar.Text, txtApellidosAgregar.Text, txtCedulaAgregar.Text, Convert.ToDateTime(dtpFechaNacimientoAgregar.Value), txtEdadAgregar.Text,

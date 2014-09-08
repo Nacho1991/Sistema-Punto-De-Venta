@@ -14,7 +14,49 @@ namespace Criptografia
         {
             contrasenna = "";
         }
-        public string Encriptar(string texto)
+         public byte[] EncriptacionRSA(byte[] Data, RSAParameters RSAKey, bool DoOAEPPadding)
+        {
+            try
+            {
+                byte[] encryptedData;
+                using (RSACryptoServiceProvider RSA = new RSACryptoServiceProvider())
+                {
+                    RSA.ImportParameters(RSAKey);
+                    encryptedData = RSA.Encrypt(Data, DoOAEPPadding);
+                }
+                return encryptedData;
+            }
+            catch (CryptographicException e)
+            {
+                Console.WriteLine(e.Message);
+
+                return null;
+            }
+
+        }
+
+        public byte[] DesencriptacionRSA(byte[] Data, RSAParameters RSAKey, bool DoOAEPPadding)
+        {
+            try
+            {
+                byte[] decryptedData;
+                using (RSACryptoServiceProvider RSA = new RSACryptoServiceProvider())
+                {
+                    RSA.ImportParameters(RSAKey);
+                    decryptedData = RSA.Decrypt(Data, DoOAEPPadding);
+                }
+                return decryptedData;
+            }
+            catch (CryptographicException e)
+            {
+                Console.WriteLine(e.ToString());
+
+                return null;
+            }
+
+        }
+
+        public string EncriptarMD5(string texto)
         {
             //arreglo de bytes donde guardaremos la llave
             byte[] keyArray;
@@ -58,7 +100,7 @@ namespace Criptografia
             //se regresa el resultado en forma de una cadena
             return Convert.ToBase64String(ArrayResultado, 0, ArrayResultado.Length);
         }
-        public string Desencriptar(string textoEncriptado)
+        public string DesencriptarMD5(string textoEncriptado)
         {
             byte[] keyArray;
             //convierte el texto en una secuencia de bytes
